@@ -82,3 +82,61 @@ document.write(Celsius + "C is " + findFahrenheit + "F" + "<br>");
 let Fahrenheit = 68;
 let findCelsius = (Fahrenheit - 32)* 5 / 9;
 document.write(Fahrenheit + "F is " + findCelsius + "C" + "<br>");
+// 7
+// *
+let item1 = 650;
+let quantity1 = 3;
+let item2 = 100;
+let quantity2 = 7;
+let shippingCharges = 100;
+let totalSum =(item1 * quantity1) + (item2 * quantity2) + shippingCharges;
+document.write("Price of item 1 is " + item1 + "<br>");
+document.write("Quantity of item 1 is " + quantity1 + "<br>");
+document.write("Price of item 2 is " + item2 + "<br>");
+document.write("Quantity of item 2 is " + quantity2 + "<br>");
+document.write("Shipping Charges " + shippingCharges + "<br><br>");
+document.write("Total cost of your order is " + totalSum + "<br><br>");
+// 8
+// *
+let totalMark = 980;
+let obtained = 804;
+let percentage = (obtained * 100)/ totalMark;
+document.write("Total Marks: " + totalMark + "<br>");
+document.write("Marks obtained: " + obtained + "<br>");
+document.write("Percentage: " + percentage + "%" + "<br><br>");
+// 9
+// *
+let currencyConvert = (10 * 104.80) + (25 * 28);
+document.write("Total Currency in PKR: " + currencyConvert + "<br><br>");
+// 10
+// *
+let num = (((3 + 5) * 10) / 2);
+document.write(num + "<br><br>");
+// 11
+// *
+let birthYear = 2003;
+let currentYear = 2022;
+let calculate = currentYear - birthYear;
+document.write("Current Year: " + currentYear + "<br>");
+document.write("Birth Year: " + birthYear + "<br>");
+document.write("Your age is: " + calculate + "<br><br>");
+// 12
+// *
+let radius = 20;
+let circumference = 3.142;
+let value1 = radius * (2 * circumference);
+document.write("Radius of circle is: " + radius);
+document.write("The circumference is: " + circumference);
+document.write("The area is: " + value1 + "<br><br>");
+// 13
+// *
+let snack = " chocolate chip ";
+let currentAge = 15;
+let maxAge = 65;
+let snackPerDay = 3;
+let total2 = (maxAge - currentAge) * 3;
+document.write("Favourite Snack: " + snack + "<br>");
+document.write("Current age: " + currentAge + "<br>");
+document.write("Estimated Maximum Age: " + maxAge + "<br>");
+document.write("Amount of snacks per day: " + snackPerDay + "<br>");
+document.write("You will need " + total2 + snack + " to last you until the ripe old age of " + maxAge);
