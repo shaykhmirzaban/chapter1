@@ -7,11 +7,12 @@
 }
 body{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 3em 0;
 }
 .top-bar{
     width: 80%;
@@ -55,19 +56,19 @@ body{
     padding: 1em 0;
     margin: 1em 0;
 }
-.conatiner a .chp1, a .chp2, a .chp3, a .chp4, a .chp5, a .chp6{
+.conatiner a .chp1, a .chp2, a .chp3, a .chp4, a .chp5, a .chp6, a .chp7, a .chp8, a .chp9, a .chp10, a .chp11{
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.conatiner .chp1-content h1, .chp2-content h1, .chp3-content h1, .chp4-content h1, .chp5-content h1, .chp6-content h1{
+.conatiner .chp1-content h1, .chp2-content h1, .chp3-content h1, .chp4-content h1, .chp5-content h1, .chp6-content h1, .chp7-content h1, .chp8-content h1, .chp9-content h1, .chp10-content h1, .chp11-content h1{
     font-size: 1.6em;
     color: #51535c;
     padding: 0 0.5em;
     transition: 0.3s;
 }
-.conatiner .chp1-content p, .chp2-content p, .chp3-content p, .chp4-content p, .chp5-content p, .chp6-content p{
+.conatiner .chp1-content p, .chp2-content p, .chp3-content p, .chp4-content p, .chp5-content p, .chp6-content p, .chp7-content p, .chp8-content p, .chp9-content p, .chp10-content p, .chp11-content p{
     font-size: 1.1em;
     color: #333;
     padding: 0.3em 0.8em;
@@ -89,7 +90,7 @@ body{
     box-shadow: inset 0px 0px 4px 2px #eee;
     transition: 0.3s;
 }
-.conatiner a:hover .chp1-content h1, a:hover .chp2-content h1, a:hover .chp3-content h1, a:hover .chp4-content h1, a:hover .chp5-content h1, a:hover .chp6-content h1{
+.conatiner a:hover .chp1-content h1, a:hover .chp2-content h1, a:hover .chp3-content h1, a:hover .chp4-content h1, a:hover .chp5-content h1, a:hover .chp6-content h1, a:hover .chp7-content h1, a:hover .chp8-content h1, a:hover .chp9-content h1, a:hover .chp10-content h1, a:hover .chp11-content h1{
     color: #6b77bf;
     transition: 0.3s;
 }
